@@ -1,0 +1,23 @@
+$gap:10px;
+$footerColor:#468085;
+$footerHeight:100px;
+$footerWidth:cover;
+$fontColor:white;
+$fontSize:20px;
+.gap {
+    margin-left: $gap;
+  }
+.knowus{
+    cursor: pointer;
+}
+.footer{
+    background-color: $footerColor;
+    height: $footerHeight;
+    width: 100%;
+    color: $fontColor;
+    font-size: $fontSize;
+    bottom: 0%;
+    position:fixed;
+    padding-bottom: 0%;
+    text-align: center;
+}

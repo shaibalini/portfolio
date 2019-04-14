@@ -1,0 +1,25 @@
+$gap:50px;
+// $navColor:#468085;
+$navHeight:30px;
+$navWidth:cover;
+$fontColor:white;
+$fontSize:20px;
+.gap {
+    margin-left: $gap;
+  }
+.knowus{
+    cursor: pointer;
+}
+.nav{
+    // background-color: $navColor;
+    height: $navHeight;
+    width: 100%;
+    color: $fontColor;
+    font-size: $fontSize;
+    top: 0%;
+    // position: fixed;
+}
+.tag{
+    padding-top: 50px;
+    cursor: pointer;
+}
